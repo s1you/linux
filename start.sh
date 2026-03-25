@@ -1,4 +1,3 @@
-sudo su
 cd
 sudo mkdir /mnt/hdd
 sudo mount /dev/sda3 /mnt/hdd
