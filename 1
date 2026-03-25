@@ -3,6 +3,7 @@ cd Downloads/linux-main
 chmod +x start.sh
 次にstart.shを実行
 
-cd /mnt/hdd/Minecraft
-chmod +x start.sh
-/mnt/hdd/Minecraft/start.sh
+crontab -e
+
+0 2 * * * /mnt/hdd/Minecraft/stop.sh
+0 8 * * * /mnt/hdd/Minecraft/start.sh
