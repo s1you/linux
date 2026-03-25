@@ -9,6 +9,3 @@ echo "deb [signed-by=/etc/apt/trusted.gpg.d/playit.gpg] https://playit-cloud.git
 sudo apt update
 sudo apt install playit
 playit
-
-cd /mnt/hdd/Minecraft
-start.sh
