@@ -6,8 +6,8 @@ chmod +x start.sh
 /mnt/hdd/Minecraft/FastServer/FastServer_Launcher_1.0.1.appimage
 
 crontab -e
-0 1 * * * /mnt/hdd/Minecraft/stop.sh
-0 7 * * * /mnt/hdd/Minecraft/start.sh
+0 1 * * * /mnt/hdd/Minecraft/Servers/2/stop.sh
+0 7 * * * /mnt/hdd/Minecraft/Servers/1/start.sh
 
 sudo nano /etc/systemd/logind.conf
 HandleLidSwitch=ignore
