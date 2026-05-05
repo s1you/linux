@@ -9,3 +9,9 @@ crontab -e
 
 0 1 * * * /mnt/hdd/Minecraft/stop.sh
 0 7 * * * /mnt/hdd/Minecraft/start.sh
+
+sudo nano /etc/systemd/logind.conf
+
+HandleLidSwitch=ignore
+HandleLidSwitchExternalPower=ignore
+HandleLidSwitchDocked=ignore
